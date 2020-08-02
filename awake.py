@@ -1,6 +1,6 @@
 '''
 This script is meant to keep a user's system awake (prevent it from going to sleep)
-by constantly providing automatic key input from the "shift" key of the user's keyboard.
+by constantly providing automatic key input from the "DOWN" key of the user's keyboard.
 '''
 import time
 import keyboard                             # We will need to install this lib via pip first.
