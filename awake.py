@@ -1,9 +1,9 @@
 '''
-This script is meant to keep a user's system awake (prevent it from going to sleep)
+This script is meant to keep a user's system awake (prevent it from going to sleep, useful for keeping workplace's skype status availaibility lol)
 by constantly providing automatic key input from the "DOWN" key of the user's keyboard.
 '''
 import time
-import keyboard                             # We will need to install this lib via pip first.
+import keyboard                             # We will need to install this lib via pip first. Use command "pip3 install keyboard"
 
 print(' ')
 print('--------------------------------------------------')
