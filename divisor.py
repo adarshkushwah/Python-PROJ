@@ -6,5 +6,5 @@ num = int(input('\nPlease enter a number for which you want to find all the divi
 print('\n')
 for divisors in range(1,num+1):
     if(num%divisors==0):
-        print(divisors)
+        print(divisors,end = '  ')
 print('\n')
